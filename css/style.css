@@ -1,0 +1,50 @@
+.page {
+    background: #fdde7e;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    height: 600px;
+}
+
+.cups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+    box-shadow: 0 2px 2px grey;
+    background: white;
+    width: 30%;
+}
+
+.cups__bronze {
+    height: 75%;
+}
+
+.cups__gold {
+    height: 81%;
+}
+
+.cups__silver {
+    height: 75%;
+}
+
+.cups__price{
+    color: darkgreen;
+    font-size: 50px;
+}
+
+.cups__name{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.cups__details {
+    font-size: 15px;
+    line-height: 0;
+}
+
